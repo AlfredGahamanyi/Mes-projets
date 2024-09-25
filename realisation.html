@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Site personnel Alfred</title>
+    <link rel="stylesheet" href="styleperso.css">
+    <style>
+        /* Utilisation de Times New Roman pour tout le site */
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            font-size: 16px; /* Taille de police par défaut pour le corps */
+        }
+
+        /* Style de navigation */
+        header {
+            background-color: #003366;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            text-align: right;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            transition: 0.3s;
+        }
+
+        /* Style du tableau des réalisations */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 1.1em; /* Augmentation de la taille de la police pour le tableau */
+        }
+
+        th,
+        td {
+            padding: 25px; /* Augmentation de l'espace autour du texte */
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #003366;
+            color: #ffffff;
+            font-size: 1.2em; /* Taille de police pour les titres du tableau */
+        }
+
+        td {
+            background-color: #f9f9f9;
+            font-size: 1.1em; /* Taille de police pour les cellules */
+        }
+
+        /* Style des images */
+        img {
+            border-radius: 50%;
+            width: 250px; /* Ajustement de la taille des images */
+            height: 250px; /* Ajustement de la taille des images */
+            object-fit: cover; /* Maintenir l'aspect des images */
+            margin-right: 30px;
+        }
+
+        /* Style du pied de page */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: #ffffff;
+            font-size: 0.9em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer hr {
+            margin: 20px auto;
+            width: 80%;
+            border: 0;
+            border-top: 1px solid #ffffff;
+        }
+
+        footer span {
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* Style pour les titres des sections */
+        h2, h3 {
+            font-size: 1.5em; /* Taille de police pour les titres */
+            margin: 20px 0; /* Marges autour des titres */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: white; text-align: center;">Bienvenue sur mon site personnel</h1>
+        <nav>
+            <a href="sitePerso.html">Accueil</a>
+            <a href="realisation.html">Réalisations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <center>
+        <h2><u>MES RÉALISATIONS</u></h2>
+    </center>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Année</th>
+                <th>Stage et projets</th>
+                <th>Référence</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2020-2021</td>
+                <td>Stage professionnel</td>
+                <td>Atelier d'électricité, ITIG Don Bosco, Goma</td>
+            </tr>
+            <tr>
+                <td>2019-2023</td>
+                <td>Installation électrique</td>
+                <td>Ménages privés</td>
+            </tr>
+            <tr>
+                <td>Du 16/10 au 23/10/2023</td>
+                <td>Conception et réalisation d'un moteur à courant continu et d'une lampe</td>
+                <td>Projet tutoré ULPGL</td>
+            </tr>
+            <tr>
+                <td>22 septembre 2024</td>
+                <td>Apostolat dans un orphelinat</td>
+                <td>Orphelinat Maman Jeanne</td>
+            </tr>
+            <tr>
+                <td>22 avril 2024</td>
+                <td>Mise en place d'un système de protection contre la foudre</td>
+                <td>Riziki Bio Kivu</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>Ajustage et couplage de panneaux solaires</td>
+                <td>Bbox</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <center>
+        <h2><u>QUELQUES IMAGES</u></h2>
+    </center>
+
+    <table>
+        <tr>
+            <td><img src="photo.png" alt="Image d'Alfred"></td>
+            <td><img src="photos.jpg" alt="Projet solaire"></td>
+            <td><img src="phot.png" alt="Réalisation d'un projet"></td>
+        </tr>
+        <tr>
+            <td><h3>Conception d'un moteur</h3></td>
+            <td><h3>Apostolat Orphelinat</h3></td>
+            <td><h3>Installation de panneaux solaires</h3></td>
+        </tr>
+        <tr>
+            <td colspan="3"><img src="PH.jpg" alt="Installation électrique" style="width: 250px;"></td>
+        </tr>
+        <tr>
+            <td colspan="3"><h3>Mise à la terre</h3></td>
+        </tr>
+    </table>
+
+    <footer>
+        <hr>
+        <span>&copy; Ushindi Gahamanyi Alfred - Tous droits réservés</span>
+    </footer>
+</body>
+
+</html>

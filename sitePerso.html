@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil site personnel Alfred</title>
+    <link rel="stylesheet" href="styleperso.css">
+    <style>
+        /* Utilisation de Times New Roman pour tout le site */
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Style pour la navigation */
+        header {
+            background-color: #003366;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            text-align: right;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            transition: 0.3s;
+        }
+
+        /* Style pour la section profil */
+        .profile {
+            display: flex;
+            align-items: center;
+            padding: 30px;
+            background-color: #f9f9f9;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-info {
+            margin-left: 20px;
+        }
+
+        .profile-info h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 2em;
+            color: #003366;
+        }
+
+        .profile-info h4 {
+            margin: 0;
+            padding: 5px 0;
+            font-size: 1.2em;
+            color: #555;
+            font-style: italic;
+        }
+
+        /* Style pour la section présentation */
+        .presentation {
+            text-align: left;
+            margin: 40px auto;
+            padding: 30px;
+            width: 80%;
+            max-width: 900px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .presentation h2 {
+            font-size: 1.8em;
+            color: #003366;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .presentation p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .presentation ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.2em;
+            margin-left: 20px;
+        }
+
+        .presentation ul li {
+            margin: 10px 0;
+            padding-left: 20px;
+            text-align: left;
+            color: #555;
+            position: relative;
+        }
+
+        .presentation ul li:before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: #003366;
+        }
+
+        /* Style pour le footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: #ffffff;
+            font-size: 0.9em;
+        }
+
+        footer hr {
+            margin: 20px auto;
+            width: 80%;
+            border: 0;
+            border-top: 1px solid #ffffff;
+        }
+
+        footer span {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: white; text-align: center;">Bienvenue sur mon site Personnel</h1>
+        <nav>
+            <a href="sitePerso.html">Accueil</a>
+            <a href="realisation.html">Réalisations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="profile">
+        <img src="image.jpg" alt="image d'Alfred">
+        <div class="profile-info">
+            <h1>USHINDI GAHAMANYI ALFRED</h1>
+            <h4><center><i>Ingénieur Electricien</i></center></h4>
+        </div>
+    </div>
+
+    <div class="presentation">
+        <h2><u>Présentation personnelle</u></h2>
+        <p>En tant qu'ingénieur électricien expérimenté, je me spécialise dans l'installation et la maintenance de systèmes électriques pour des infrastructures résidentielles, commerciales et industrielles. Je conçois des systèmes sur mesure, supervise leur mise en place et veille à leur bon fonctionnement à travers des tests approfondis et une maintenance rigoureuse.</p>
+        <p>Mon approche inclut :</p>
+        <ul>
+            <li>Conception de schémas électriques selon les besoins spécifiques et les normes en vigueur.</li>
+            <li>Supervision de l'installation pour garantir un système fiable et sécurisé.</li>
+            <li>Tests et mise en service pour valider la conformité et la sécurité.</li>
+            <li>Maintenance préventive avec des inspections régulières pour prévenir les pannes.</li>
+            <li>Maintenance corrective, avec une intervention rapide en cas de panne pour minimiser les interruptions.</li>
+        </ul>
+        <p>Je m'engage à respecter les normes de sécurité et à améliorer constamment les systèmes pour maximiser leur efficacité et durabilité.</p>
+    </div>
+
+    <footer>
+        <hr>
+        <span>&copy; Ushindi Gahamanyi Alfred - Tous droits réservés</span>
+    </footer>
+</body>
+
+</html>

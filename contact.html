@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil site personnel Alfred</title>
+    <link rel="stylesheet" href="styleperso.css">
+    <style>
+        /* Style pour la navigation */
+        header {
+            background-color: #003366;
+            padding: 10px;
+        }
+
+        nav {
+            text-align: right;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #003366;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Carte de contact */
+        .contact-card {
+            width: 60%;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #003366;
+            background-color: #f4f4f4;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .contact-item img {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .contact-item span {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        /* Localisation */
+        .localisation {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .localisation img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        /* Style général */
+        body {
+            font-family: "Times New Roman", Times, serif; /* Utilisation de Times New Roman */
+            background-color: #eaeaea;
+        }
+
+        h1, h2 {
+            color: #003366;
+        }
+
+        .contact-info h2 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: white;">Bienvenue sur mon site Personnel</h1>
+        <nav>
+            <a href="sitePerso.html">Accueil</a>
+            <a href="realisation.html">Réalisations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="contact-info">
+        <center><h2>CONTACT ET ADRESSE</h2></center>
+
+        <div class="contact-card">
+            <div class="contact-item">
+                <img src="https://img.icons8.com/ios-filled/24/000000/phone.png" alt="Téléphone">
+                <span>Téléphone: +243976497069</span>
+            </div>
+
+            <div class="contact-item">
+                <img src="https://img.icons8.com/ios-filled/24/000000/whatsapp.png" alt="WhatsApp">
+                <span>WhatsApp: +243976497069</span>
+            </div>
+
+            <div class="contact-item">
+                <img src="https://img.icons8.com/ios-filled/24/000000/new-post.png" alt="Email">
+                <span>Email: alfredgahamanyi@gmail.com</span>
+            </div>
+
+            <div class="localisation">
+                <img src="https://img.icons8.com/ios-filled/24/000000/marker.png" alt="Localisation">
+                Ville de GOMA/RDC, Commune de Goma, Quartier Kyeshero, Av. Polyclinic
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

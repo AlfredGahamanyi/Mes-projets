@@ -1,0 +1,78 @@
+/* Styles pour centrer et espacer les éléments */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav {
+    text-align: center; /* Centrer le menu de navigation */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border: 2px solid white; /* Ajouter une bordure autour de chaque lien */
+    margin-left: 10px; /* Espacement entre les liens */
+    border-radius: 5px; /* Adoucit les coins de la bordure */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: #333; /* Change la couleur au survol */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Styles pour le contenu principal */
+.profile {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    width: 100%; /* Prend toute la largeur de l'écran */
+    justify-content: flex-start;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    padding: 1rem 0;
+    color: white;
+    text-align: center;
+}
+
+footer span {
+    color: white;
+}

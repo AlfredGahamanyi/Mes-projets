@@ -1,0 +1,230 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; /* Ajout de la police Times New Roman */
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    font-size: 1.1rem; /* Augmentation de la taille de police pour une lecture plus facile */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #283593;
+    color: #fff;
+}
+
+header img.profile-image {
+    width: 100px; /* Taille réduite de l'image */
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #fff; /* Mise en forme de l'image */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.3rem; /* Ajustement de la taille de police pour le sous-titre */
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #3949ab;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #1e88e5;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #283593;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p, ul {
+    font-size: 1.2rem; /* Légère augmentation de la taille de la police */
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Contact Section */
+section#contact p {
+    font-size: 1.3rem;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: #283593;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; /* Ajout de la police Times New Roman */
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    font-size: 1.1rem; /* Augmentation de la taille de police pour une lecture plus facile */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #283593;
+    color: #fff;
+}
+
+header img.profile-image {
+    width: 100px; /* Taille réduite de l'image */
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #fff; /* Mise en forme de l'image */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.3rem; /* Ajustement de la taille de police pour le sous-titre */
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #3949ab;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #1e88e5;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #283593;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p, ul {
+    font-size: 1.2rem; /* Légère augmentation de la taille de la police */
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Contact Section */
+section#contact p {
+    font-size: 1.3rem;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: #283593;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 1rem;
+}

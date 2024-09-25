@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen à Choix Multiple - Électricité</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9ecef; /* Fond de page clair */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #0056b3; /* Couleur du titre */
+            font-size: 28px; /* Titre de l'examen */
+            text-transform: uppercase; /* Titre en majuscules */
+            margin-bottom: 10px;
+        }
+
+        .container {
+            display: flex; /* Utilisation de flex pour aligner les sections */
+            justify-content: center;
+            width: 100%;
+        }
+
+        .user-info {
+            background-color: #fff; /* Fond blanc pour la grille */
+            border-radius: 8px; /* Coins arrondis */
+            padding: 20px; /* Espacement interne */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            margin-right: 20px; /* Espacement entre les grilles */
+            width: 300px; /* Largeur fixe */
+            text-align: left; /* Alignement à gauche */
+        }
+
+        .user-info label {
+            display: block;
+            margin-bottom: 5px; /* Espacement entre les labels */
+        }
+
+        .user-info input {
+            width: 100%; /* Prend toute la largeur disponible */
+            padding: 10px; /* Espacement interne */
+            margin-bottom: 15px; /* Espacement entre les champs */
+            border: 1px solid #ccc; /* Bordure légère */
+            border-radius: 4px; /* Coins arrondis pour les champs de saisie */
+        }
+
+        .quiz {
+            background-color: #fff; /* Fond blanc pour les questions */
+            border-radius: 8px; /* Coins arrondis */
+            padding: 20px; /* Espacement interne */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            width: 400px; /* Largeur fixe */
+        }
+
+        .question {
+            margin-bottom: 20px; /* Espacement entre les questions */
+        }
+
+        .options label {
+            display: block; /* Affichage en bloc pour les options */
+            margin-bottom: 5px; /* Espacement entre les options */
+        }
+
+        .submit-container {
+            text-align: center; /* Alignement centré pour le bouton */
+            margin-top: 20px; /* Espacement supérieur */
+        }
+
+        button {
+            padding: 10px 20px; /* Espacement interne du bouton */
+            background-color: #0056b3; /* Couleur du bouton */
+            color: white; /* Couleur du texte */
+            border: none; /* Pas de bordure */
+            border-radius: 5px; /* Coins arrondis */
+            cursor: pointer; /* Curseur de pointeur */
+            transition: background-color 0.3s ease; /* Transition pour le survol */
+        }
+
+        button:hover {
+            background-color: #004090; /* Couleur au survol */
+        }
+
+        .footer {
+            margin-top: 10px; /* Espacement au-dessus de la mention */
+            text-align: right; /* Alignement à droite */
+            font-style: italic; /* Italique pour le nom */
+            color: #003366; /* Couleur du nom */
+        }
+
+        #confirmation {
+            display: none; /* Cacher le message de confirmation par défaut */
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>QUESTIONNAIRE</h1>
+
+    <div class="container">
+        <div class="user-info">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" required>
+
+            <label for="postnom">Postnom :</label>
+            <input type="text" id="postnom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" required>
+
+            <label for="numero-matricule">Numéro Matricule :</label>
+            <input type="text" id="numero-matricule" required>
+
+            <div class="footer">Prof: USHINDI GAHAMANYI ALFRED</div> <!-- Ajout de la mention ici -->
+        </div>
+
+        <div class="quiz">
+            <form id="quizForm">
+                <div class="question">
+                    <p>1. Quelle est l'unité de mesure de l'intensité du courant électrique ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question1" value="a"> a) Volt</label>
+                        <label><input type="radio" name="question1" value="b"> b) Ampère</label>
+                        <label><input type="radio" name="question1" value="c"> c) Ohm</label>
+                        <label><input type="radio" name="question1" value="d"> d) Watt</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>2. Quelle loi relie la tension, le courant et la résistance dans un circuit électrique ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question2" value="a"> a) Loi de Kirchhoff</label>
+                        <label><input type="radio" name="question2" value="b"> b) Loi d'Ohm</label>
+                        <label><input type="radio" name="question2" value="c"> c) Loi de Faraday</label>
+                        <label><input type="radio" name="question2" value="d"> d) Loi de Coulomb</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>3. Quel est l'effet principal du passage d'un courant électrique à travers un conducteur ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question3" value="a"> a) Augmentation de la tension</label>
+                        <label><input type="radio" name="question3" value="b"> b) Production de chaleur</label>
+                        <label><input type="radio" name="question3" value="c"> c) Diminution de la résistance</label>
+                        <label><input type="radio" name="question3" value="d"> d) Conversion d'énergie</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>4. Dans un circuit en série, quelle est la relation entre les courants dans chaque résistance ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question4" value="a"> a) Les courants sont égaux</label>
+                        <label><input type="radio" name="question4" value="b"> b) Les courants sont inversés</label>
+                        <label><input type="radio" name="question4" value="c"> c) Les courants sont différents</label>
+                        <label><input type="radio" name="question4" value="d"> d) Les courants sont multipliés</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>5. Quel est le rôle d'un transformateur dans un circuit électrique ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question5" value="a"> a) Augmenter la résistance</label>
+                        <label><input type="radio" name="question5" value="b"> b) Convertir le courant alternatif en courant continu</label>
+                        <label><input type="radio" name="question5" value="c"> c) Changer la tension du courant alternatif</label>
+                        <label><input type="radio" name="question5" value="d"> d) Stocker l'énergie</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>6. Qu'est-ce qu'un court-circuit ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question6" value="a"> a) Un circuit avec une faible résistance</label>
+                        <label><input type="radio" name="question6" value="b"> b) Un circuit ouvert</label>
+                        <label><input type="radio" name="question6" value="c"> c) Un circuit qui consomme beaucoup d'énergie</label>
+                        <label><input type="radio" name="question6" value="d"> d) Un circuit fermé avec une résistance nulle</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>7. Quelle est la formule de la puissance électrique ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question7" value="a"> a) P = U + I</label>
+                        <label><input type="radio" name="question7" value="b"> b) P = U - I</label>
+                        <label><input type="radio" name="question7" value="c"> c) P = U × I</label>
+                        <label><input type="radio" name="question7" value="d"> d) P = U / I</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>8. Quelle est la principale caractéristique d'un circuit électrique en parallèle par rapport à un circuit en série ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question8" value="a"> a) La tension est la même dans tous les éléments</label>
+                        <label><input type="radio" name="question8" value="b"> b) Le courant est le même dans tous les éléments</label>
+                        <label><input type="radio" name="question8" value="c"> c) La résistance totale est plus élevée</label>
+                        <label><input type="radio" name="question8" value="d"> d) Les éléments sont connectés en série</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>9. Quelle est la fonction d'un fusible dans un circuit électrique ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question9" value="a"> a) Augmenter la tension</label>
+                        <label><input type="radio" name="question9" value="b"> b) Couper le courant en cas de surcharge</label>
+                        <label><input type="radio" name="question9" value="c"> c) Convertir le courant alternatif en continu</label>
+                        <label><input type="radio" name="question9" value="d"> d) Stocker l'énergie</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>10. Quelle est l'unité de mesure de la résistance électrique ?</p>
+                    <div class="options">
+                        <label><input type="radio" name="question10" value="a"> a) Volt</label>
+                        <label><input type="radio" name="question10" value="b"> b) Ampère</label>
+                        <label><input type="radio" name="question10" value="c"> c) Ohm</label>
+                        <label><input type="radio" name="question10" value="d"> d) Watt</label>
+                    </div>
+                </div>
+
+                <div class="submit-container">
+                    <button type="submit">Envoyer mes réponses</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="confirmation" style="display: none;">
+        <h2>Merci d'avoir répondu à l'examen !</h2>
+        <p>Vos réponses ont été enregistrées.</p>
+        <button onclick="location.reload();">Remettre l'examen</button>
+    </div>
+
+    <script>
+        const form = document.getElementById('quizForm');
+        const confirmation = document.getElementById('confirmation');
+
+        form.onsubmit = function (event) {
+            event.preventDefault(); // Empêche l'envoi normal du formulaire
+            form.style.display = 'none'; // Cache le formulaire
+            confirmation.style.display = 'block'; // Affiche le message de confirmation
+        };
+    </script>
+</body>
+
+</html>
